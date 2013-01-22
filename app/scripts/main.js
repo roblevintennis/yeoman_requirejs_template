@@ -2,7 +2,8 @@
 require.config({
 	shim: {},
 	paths: {
-		map: 'scripts/map',
+		app: 'app',
+		MyLib: 'MyLib',
 		jquery: 'vendor/jquery.min'
 	}
 });

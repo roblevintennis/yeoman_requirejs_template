@@ -17,8 +17,8 @@
   <script>
     mocha.setup({ui: 'bdd', ignoreLeaks: true});
     expect = chai.expect;
-    should = chai.should();
-    require(['../spec/map.spec'], function () {
+
+    require(['../spec/MyLib.spec'], function () {
       setTimeout(function () {
         require(['../runner/mocha']);
       }, 100);
