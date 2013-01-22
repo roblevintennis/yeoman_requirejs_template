@@ -19,9 +19,7 @@
     expect = chai.expect;
 
     require(['../spec/MyLib.spec'], function () {
-      setTimeout(function () {
-        require(['../runner/mocha']);
-      }, 100);
+      require(['../runner/mocha']);
     });
   </script> 
 
